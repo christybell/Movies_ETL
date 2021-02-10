@@ -1,3 +1,6 @@
+# Adding config file w pw
+config.py
+
 # Adding data sources.
 
 movies.metadata.csv

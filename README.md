@@ -16,13 +16,17 @@ Amazing Prime loves the dataset and wants to keep it updated on a daily basis. T
 
 ## Challenge Results
 ### Deliverable 1: Write an ETL Function to Read Three Data Files
-Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I wrote a function that reads the three data files and creates three separate DataFrames. **File name: `ETL_function_test.ipynb`**
+Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I wrote a function that reads the three data files and creates three separate DataFrames.<br /> 
+**File name: `ETL_function_test.ipynb`**
 
 ### Deliverable 2: Extract and Transform the Wikipedia Data
-Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I extracted and transformed the Wikipedia data so it can be merged with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, I've included a `try-except` block to catch errors. **File name: `ETL_clean_wiki_movies.ipynb`**
+Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I extracted and transformed the Wikipedia data so it can be merged with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, I've included a `try-except` block to catch errors.<br /> 
+**File name: `ETL_clean_wiki_movies.ipynb`**
 
 ### Deliverable 3: Extract and Transform the Kaggle Data
-Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, I merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the `movies_df` DataFrame. Finally, I merged the MovieLens rating data DataFrame with the `movies_df` DataFrame to create the `movies_with_ratings_df`. **File name: `ETL_clean_kaggle_data.ipynb`**
+Using my knowledge of Python, Pandas, the ETL process, and code refactoring, I extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, I merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the `movies_df` DataFrame. Finally, I merged the MovieLens rating data DataFrame with the `movies_df` DataFrame to create the `movies_with_ratings_df`.<br /> 
+**File name: `ETL_clean_kaggle_data.ipynb`**
 
 ### Deliverable 4: Create the Movie Database
-I used my knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the `movies_df` DataFrame and MovieLens rating CSV data to a SQL database. **File name: `ETL_create_database.ipynb`**
+I used my knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the `movies_df` DataFrame and MovieLens rating CSV data to a SQL database.<br /> 
+**File name: `ETL_create_database.ipynb`**

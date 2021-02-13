@@ -3,10 +3,6 @@ config.py
 
 # Adding data sources.
 
-movies.metadata.csv
-ratings.csv
-wikipedia-movies.json
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
